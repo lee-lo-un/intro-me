@@ -1,4 +1,8 @@
 /* Default CSS */
+p{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
 :root{
     --menu_H: 70px;
   }
