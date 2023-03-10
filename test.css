@@ -1,0 +1,122 @@
+/* Default CSS */
+:root{
+    --menu_H: 70px;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#intro {
+    width: 100%;
+    height: var(--menu_H);
+    background-color: yellow;
+}
+
+#intro nav {
+    float: right;
+
+    width: 100%;
+    height: var(--menu_H);
+    background-color: gray;
+}
+
+#intro nav ul li {
+    width: 120px;
+    padding-right: 20px;
+    height: var(--menu_H);
+    
+    /* display: inline-block;*/
+    float: left;
+    text-align: center;
+    line-height: var(--menu_H);
+}
+
+
+#intro nav ul li .menu-btn {
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#intro nav ul li .menu-btn:hover { 
+    background-color: #a79e9e77;
+    font-size : 150%;
+    transition: 1s;
+}
+
+
+
+#cv{
+    padding: 0 0 0 15px;
+}
+
+#main #article_1  {
+    display: block; 
+    
+    width: 30%;
+    height: 30%;
+    padding: 30px 0 20px 0;
+}
+
+#main #article_1 div{
+    overflow: hidden;
+}
+
+#name{
+    font-size: 30px;
+    text-align:center;
+}
+
+
+#main #article_1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    margin: auto;
+    display: block;
+    
+}
+
+#main #article_1 img:hover { 
+    transform: scale(1.5); 
+    transition: 1s;
+}
+
+#article_2{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr;
+
+  padding-bottom: 50px;
+}
+
+
+#article_2 .section_num{
+    padding : 0 0 30px 0; 
+}
+
+#article_2 .section_name{
+    padding : 0 0 10px 0; 
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: #c0c0c0;
+}
+footer .author , .copyright{
+    font-size: 15px;
+    padding-left: 30px;
+
+    position: relative;
+    bottom:-30px;
+    
+}
+
+
